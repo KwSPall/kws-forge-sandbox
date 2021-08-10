@@ -1,0 +1,15 @@
+modules:
+  jira:issuePanel:
+    - key: first-kws-app-hello-world-panel
+      function: main
+      title: First Forge app
+      icon: https://developer.atlassian.com/platform/forge/images/icons/issue-panel-icon.svg
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/65e8578a-444b-42f2-be6f-66d6a01a21cf
+  name: first-kws-app
+permissions:
+  scopes:
+    - read:jira-work
